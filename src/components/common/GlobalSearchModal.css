@@ -1,0 +1,134 @@
+.search-modal-card {
+  max-width: 650px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.search-input-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+.search-icon {
+  color: var(--text-muted);
+}
+
+.global-search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.search-results-body {
+  max-height: 420px;
+  overflow-y: auto;
+  padding: 1rem 1.5rem;
+}
+
+.search-prompt, .search-empty {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.quick-hints {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.result-group {
+  margin-bottom: 1.25rem;
+}
+
+.group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.result-item:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-color-hover);
+  transform: translateX(3px);
+}
+
+.platform-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+}
+
+.result-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-title {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+}
+
+.result-sub {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.status-pill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  text-transform: capitalize;
+}
+
+.status-pill.published {
+  background: var(--status-published-bg);
+  color: var(--status-published);
+}
+
+.status-pill.draft {
+  background: var(--status-draft-bg);
+  color: var(--status-draft);
+}
+
+.status-pill.scheduled {
+  background: var(--status-scheduled-bg);
+  color: var(--status-scheduled);
+}
+
+.arrow-icon {
+  color: var(--text-muted);
+}

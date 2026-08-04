@@ -1,0 +1,91 @@
+/* Theme Variables & Design Tokens */
+:root {
+  /* Color Palette - Dark Premium Theme Default */
+  --bg-primary: #0b0f19;
+  --bg-secondary: #111827;
+  --bg-card: rgba(17, 24, 39, 0.75);
+  --bg-card-hover: rgba(31, 41, 55, 0.85);
+  --bg-glass: rgba(17, 24, 39, 0.65);
+  --bg-input: #1f2937;
+  --bg-hover: #374151;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(99, 102, 241, 0.4);
+
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --text-inverse: #111827;
+
+  /* Accent Colors */
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --primary-light: rgba(99, 102, 241, 0.15);
+  
+  --secondary: #ec4899;
+  --secondary-hover: #db2777;
+
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+
+  /* Status Colors */
+  --status-published: #10b981;
+  --status-published-bg: rgba(16, 185, 129, 0.15);
+  --status-draft: #f59e0b;
+  --status-draft-bg: rgba(245, 158, 11, 0.15);
+  --status-scheduled: #3b82f6;
+  --status-scheduled-bg: rgba(59, 130, 246, 0.15);
+
+  /* Social Platform Colors */
+  --platform-facebook: #1877f2;
+  --platform-instagram: #e4405f;
+  --platform-linkedin: #0a66c2;
+  --platform-twitter: #1da1f2;
+  --platform-youtube: #ff0000;
+
+  /* Shadows & Glass */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.18);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.35);
+
+  --backdrop-blur: blur(12px);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Spacing & Layout */
+  --sidebar-width: 260px;
+  --navbar-height: 70px;
+
+  /* Transition timings */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-bounce: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Light Theme Overrides */
+[data-theme="light"] {
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #ffffff;
+  --bg-card: rgba(255, 255, 255, 0.85);
+  --bg-card-hover: rgba(249, 250, 251, 0.95);
+  --bg-glass: rgba(255, 255, 255, 0.75);
+  --bg-input: #f3f4f6;
+  --bg-hover: #e5e7eb;
+
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-color-hover: rgba(99, 102, 241, 0.5);
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --text-inverse: #ffffff;
+
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 15px rgba(99, 102, 241, 0.2);
+}
